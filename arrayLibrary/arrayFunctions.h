@@ -7,7 +7,7 @@
 
 void takeInput(int arr[], int size);
 void printArray(int arr[], int size);
-void swapElements(int arr[], int index1, int index2);
+void swapElements(int arr[], int index1, int index2 , int size);
 int findMax(int arr[], int size);
 int findMin(int arr[], int size);
 void reverseArray(int arr[], int size);
