@@ -19,7 +19,7 @@ void printArray(int arr[], int size) {
 }
 
 // Function to swap two elements in the array
-void swapElements(int arr[], int index1, int index2) {
+void swapElements(int arr[], int index1, int index2, int size) {
     if(index1 >= 0 && index1 < size && index2 >= 0 && index2 < size) {
         swap(arr[index1], arr[index2]);
     } else {
@@ -106,10 +106,6 @@ void sortArray(int arr[], int size) {
     }
 }
 
-// Function to return the size of an array
-int getArraySize(int arr[]) {
-    return sizeof(arr) / sizeof(arr[0]);
-}
 
 // Function to find the first occurrence of an element in the array
 int findFirstOccurrence(int arr[], int size, int key) {
