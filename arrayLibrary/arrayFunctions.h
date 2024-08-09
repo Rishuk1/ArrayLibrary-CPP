@@ -15,7 +15,6 @@ int sumArray(int arr[], int size);
 int searchElement(int arr[], int size, int key);
 int binarySearch(int arr[], int size, int key);
 void sortArray(int arr[], int size);
-int getArraySize(int arr[]);
 int findFirstOccurrence(int arr[], int size, int key);
 int findLastOccurrence(int arr[], int size, int key);
 int countOccurrences(int arr[], int size, int key);
