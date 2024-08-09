@@ -106,10 +106,6 @@ void sortArray(int arr[], int size) {
     }
 }
 
-// Function to return the size of an array
-int getArraySize(int arr[]) {
-    return sizeof(arr) / sizeof(arr[0]);
-}
 
 // Function to find the first occurrence of an element in the array
 int findFirstOccurrence(int arr[], int size, int key) {
