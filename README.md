@@ -29,7 +29,7 @@ Follow these steps to clone the repository and set up the library:
 2. Clone the repository by running the following command:
    
  ```bash
-  git clone https://github.com/your-username/your-repository.git .
+  git clone https://github.com/Rishuk1/ArrayLibrary-CPP.git
   ```
 After cloning, navigate to the repository folder.
 
